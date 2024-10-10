@@ -62,7 +62,7 @@ docker run -d \
     -e MYSQL_PASSWORD=kali \
     -e MYSQL_DB=rsvp \
     -p 5000:5000 \
-    flaskapp:latest
+    wedding:latest
 
 ```
 
