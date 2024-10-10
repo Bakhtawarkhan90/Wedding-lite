@@ -29,7 +29,7 @@ Before you begin, make sure you have the following installed:
 
 - First create a docker image from Dockerfile
 ```bash
-docker build -t flaskapp .
+docker build . -t wedding
 ```
 
 - Now, make sure that you have created a network using following command
