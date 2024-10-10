@@ -1,0 +1,29 @@
+version: '3.8'  # Use the latest version of Docker Compose
+
+services:
+  web:
+    build: .
+    container_name: wedding_app  # Name for your web container
+    ports:
+      - "5000:5000"  # Map port 5000 on the host to port 5000 in the container
+    depends_on:
+      - database  # Ensure the database service starts before the web service
+    environment:
+      - MYSQL_HOST=database  # Name of the database service
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=kali
+      - MYSQL_DB=rsvp
+
+  database:
+    image: mysql:5.7  # Use MySQL 5.7
+    container_name: database  # Name for your database container
+    environment:
+      MYSQL_ROOT_PASSWORD: kali  # Root password for MySQL
+      MYSQL_DATABASE: rsvp  # Name of the database to create
+    ports:
+      - "3306:3306"  # Map port 3306 on the host to port 3306 in the container
+    volumes:
+      - db_data:/var/lib/mysql  # Use a named volume for persistent database storage
+
+volumes:
+  db_data:  # Define the named volume for database data persistence
