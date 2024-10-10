@@ -1,6 +1,4 @@
- 
-
-# Flask App with MySQL Docker Setup
+ # Flask App with MySQL Docker Setup
 
 This is a simple Flask app that interacts with a MySQL database. The app allows users to submit messages, which are then stored in the database and displayed on the frontend.
 
@@ -93,5 +91,19 @@ docker run -d \
 - If you encounter issues, check Docker logs and error messages for troubleshooting.
 
 ```
-![Screenshot]_(Screenshot%2024-10-10%185613.png)_
+# Wedding-lite
+
+## Screenshots
+
+### Home Page
+![Home Page](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185613.png)
+
+### Features Page
+![Features Page](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185704.png)
+
+### Contact Page
+![Contact Page](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185750.png)
+
+Welcome to Wedding-lite! 
+
 
