@@ -24,13 +24,7 @@ Before you begin, make sure you have the following installed:
    ```bash
    cd your-repo-name
    ```
-3. Access the Flask app in your web browser:
-
-   - Frontend: http://localhost
-   - Backend: http://localhost:5000
-
-
-
+   
 ## To run this two-tier application using  without docker-compose
 
 - First create a docker image from Dockerfile
