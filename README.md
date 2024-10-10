@@ -93,5 +93,5 @@ docker run -d \
 - If you encounter issues, check Docker logs and error messages for troubleshooting.
 
 ```
-![Screenshot 1](Screenshot 2024-10-10 185613.png)
+![Screenshot 1](Screenshot%2024-10-10%185613.png)
 
