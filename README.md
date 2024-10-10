@@ -9,6 +9,7 @@ This is a simple Flask app that interacts with a MySQL database. The app allows 
 Before you begin, make sure you have the following installed:
 
 - Docker
+- Docker Compose
 - Git (optional, for cloning the repository)
 
 ## Setup
