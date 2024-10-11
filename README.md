@@ -96,7 +96,7 @@ docker run -d \
 ## Screenshots
 
 ### Screenshot 1
-![Screenshot 1](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185613.png?raw=true)
+![Wedding Lite](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185613.png?raw=true)
 
 ### Screenshot 2
 ![Screenshot 2](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185704.png?raw=true)
