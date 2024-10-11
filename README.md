@@ -107,4 +107,14 @@ docker run -d \
 
 Welcome to Wedding-lite! 
 
+## Screenshots
+
+### Screenshot 1
+![Screenshot 1](./Screenshot%202024-10-10%20185613.png)
+
+### Screenshot 2
+![Screenshot 2](./Screenshot%202024-10-10%20185704.png)
+
+### Screenshot 3
+![Screenshot 3](./Screenshot%202024-10-10%20185750.png)
 
