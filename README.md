@@ -93,14 +93,18 @@ docker run -d \
 ```
 # Welcome to Wedding-lite! 
 
+# Wedding-lite
+
 ## Screenshots
 
-### Screenshot 1
-![Wedding Lite](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185613.png?raw=true)
+### Home Page
+![Home Page](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185613.png?raw=true)
 
-### Screenshot 2
-![Screenshot 2](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185704.png?raw=true)
+### Features Page
+![Features Page](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185704.png?raw=true)
 
-### Screenshot 3
-![Screenshot 3](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185750.png?raw=true)
+### Contact Page
+![Contact Page](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185750.png?raw=true)
 
+Welcome to Wedding-lite! This project does XYZ...
+```
