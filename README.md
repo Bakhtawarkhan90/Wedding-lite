@@ -91,30 +91,16 @@ docker run -d \
 - If you encounter issues, check Docker logs and error messages for troubleshooting.
 
 ```
-# Wedding-lite
-
-## Screenshots
-
-### Home Page
-![Wedding Lite](Screenshot%202024-10-10%20185613.png)
-![Screenshot](https://github.com/Bakhtawarkhan90/Wedding-lite/main/Screenshot%202024-10-10%20185613.png)
-
-### Features Page
-![Features Page](https://github.com/Bakhtawarkhan90/Wedding-lite/main/Screenshot%202024-10-10%20185704.png)
-
-### Contact Page
-![Contact Page](https://github.com/Bakhtawarkhan90/Wedding-lite/main/Screenshot%202024-10-10%20185750.png)
-
-Welcome to Wedding-lite! 
+# Welcome to Wedding-lite! 
 
 ## Screenshots
 
 ### Screenshot 1
-![Screenshot 1](./Screenshot%202024-10-10%20185613.png)
+![Screenshot 1](Screenshot%202024-10-10%20185613.png)
 
 ### Screenshot 2
-![Screenshot 2](./Screenshot%202024-10-10%20185704.png)
+![Screenshot 2](Screenshot%202024-10-10%20185704.png)
 
 ### Screenshot 3
-![Screenshot 3](./Screenshot%202024-10-10%20185750.png)
+![Screenshot 3](Screenshot%202024-10-10%20185750.png)
 
