@@ -90,7 +90,7 @@ docker run -d \
 
 - If you encounter issues, check Docker logs and error messages for troubleshooting.
 
-```
+
 # Welcome to Wedding-lite! 
 
 # Wedding-lite
