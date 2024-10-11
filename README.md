@@ -107,4 +107,4 @@ docker run -d \
 ![Contact Page](https://github.com/Bakhtawarkhan90/Wedding-lite/blob/main/Screenshot%202024-10-10%20185750.png?raw=true)
 
 Welcome to Wedding-lite! This project does XYZ...
-```
+
