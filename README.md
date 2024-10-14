@@ -81,6 +81,7 @@ docker run -d \
    - Backend: http://localhost:5000
 
 4. Command to Create Table in DB
+``` bash
    - CREATE TABLE IF NOT EXISTS invitations (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
@@ -88,7 +89,7 @@ docker run -d \
     guests INT,
     message TEXT
 );
-
+```
 
 ## Notes
 
