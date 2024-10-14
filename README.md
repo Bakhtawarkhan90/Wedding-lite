@@ -80,6 +80,16 @@ docker run -d \
 
    - Backend: http://localhost:5000
 
+4. Command to Create Table in DB
+   - CREATE TABLE IF NOT EXISTS invitations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    guests INT,
+    message TEXT
+);
+
+
 ## Notes
 
 - Make sure to replace placeholders (e.g., `your_username`, `your_password`, `your_database`) with your actual MySQL configuration.
