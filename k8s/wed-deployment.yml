@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wedding-deployment
+  labels:
+    app: wedding
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wedding
+  template:
+    metadata:
+      labels:
+        app: wedding
+    spec:
+      containers:
+        - name: wedding
+          image: bakhtawar375/wedding:latest
+          env:
+            - name: MYSQL_HOST
+              value: "database"         # This Is Your MYSQL Service Name Or IP
+            - name: MYSQL_USER
+              value: "root"
+            - name: MYSQL_PASSWORD
+              value: "kali"
+            - name: MYSQL_DB
+              value: "rsvp"
+          ports:
+            - containerPort: 5000
+          volumeMounts:
+            - name: mysqldata
+              mountPath: /var/lib/mysql
+          imagePullPolicy: Always
+      volumes:
+        - name: mysqldata
+          persistentVolumeClaim:
+            claimName: mysql-pvc
