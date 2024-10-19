@@ -10,4 +10,4 @@ spec:
   - ReadWriteOnce
  persistentVolumeReclaimPolicy: Retain
  hostPath:
-   path: /home/ubuntu/workspace/Wedding/mysqldata
+   path: /home/ubuntu/Wedding/mysqldata
