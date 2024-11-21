@@ -10,4 +10,8 @@ spec:
   - ReadWriteOnce
  persistentVolumeReclaimPolicy: Retain
  hostPath:
+<<<<<<< HEAD
    path: /home/ubuntu/Wedding/mysqldata
+=======
+   path: /home/pro-ubuntu/Wedding-lite/mysqldata
+>>>>>>> ec69ccc (wedding)
